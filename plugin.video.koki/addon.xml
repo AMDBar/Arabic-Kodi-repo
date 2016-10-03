@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.koki" name="Koki"
+	version="1.0.2" provider-name="Dr Tharwat">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.requests" version="2.9.1"/>
+		<import addon="script.module.urlresolver" version="3.0"/>
+		<import addon="script.module.addon.common" version="2.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Koki Arabic Movies</summary>
+		<description lang="en">Koki is The bes Arabic Movie place.
+			احدث الافلام العربية نقدمها بالاضافة الى افلام افلام الزمن الجميل  وافلام عربية اخرى 
+بالاضافة الى خاصية البحث باسم الفيلم 
+نتمنى لكم مشاهدة ممتعة 
+		</description>
+		<platform>all</platform>
+		<language>en</language>
+		<email>themtharwat@gmail.com</email>
+	</extension>
+</addon>

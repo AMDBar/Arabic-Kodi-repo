@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="koki_setting" type="bool" default="true" label=" koki Setting"/>
+</settings>
