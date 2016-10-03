@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+    <setting label="30005" type="bool" id="English content" default="false"/>
+    <setting label="30002" type="select" values="en|ar" id="language" default="en"/>
+   
+</settings>

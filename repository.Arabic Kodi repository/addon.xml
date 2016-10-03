@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.Arabic Kodi repository" name="Arabic Kodi repository" version="0.1.0" provider-name="Dr Tharwat">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Arabic Kodi repository">
+            <info compressed="false">https://github.com/AMDBar/Arabic-Kodi-repo/_repo/addons.xml</info>
+            <checksum>https://github.com/AMDBar/Arabic-Kodi-repo/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/AMDBar/Arabic-Kodi-repo/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>a Kodi Repository providing Arabic Addons for Kodi</summary>
+            <description>Arabic Kodi Repository  [CR] providing Arabic addons for Kodi [CR] our aim to make Kodi the destination of Arabic Contents .[CR] Through providing Working uptodate Addons our addons are metadatascraper Movie addons and other</description>
+            <platform>all</platform>
+    </extension>
+</addon>
